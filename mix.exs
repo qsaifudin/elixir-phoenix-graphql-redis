@@ -42,14 +42,10 @@ defmodule PhoenixGraphqlRedis.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.5"},
-      # {:plug_cowboy, "~> 2.0"},
-      # {:absinthe, "~> 1.5"},
-      # {:absinthe_plug, "~> 1.5"},
-      # {:redix, "~> 1.0"}
       {:plug_cowboy, ">= 0.0.0"},
       {:absinthe, ">= 0.0.0"},
       {:absinthe_plug, ">= 0.0.0"},
-      {:redix, ">= 0.0.0"}
+      {:redix, ">= 0.0.0"},
     ]
   end
 

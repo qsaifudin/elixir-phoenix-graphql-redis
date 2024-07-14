@@ -3,6 +3,7 @@ defmodule PhoenixGraphqlRedisWeb.Schema do
 
   alias PhoenixGraphqlRedisWeb.Resolvers.KeyValue
 
+  # Defines the GraphQL query type
   query do
     field :get_value, :string do
       arg :key, non_null(:string)
@@ -10,6 +11,7 @@ defmodule PhoenixGraphqlRedisWeb.Schema do
     end
   end
 
+  # Defines the GraphQL mutation type
   mutation do
     field :set_value, :string do
       arg :key, non_null(:string)
@@ -17,4 +19,5 @@ defmodule PhoenixGraphqlRedisWeb.Schema do
       resolve &KeyValue.set/3
     end
   end
+
 end
