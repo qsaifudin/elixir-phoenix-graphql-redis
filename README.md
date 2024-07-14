@@ -8,7 +8,7 @@
 
 ## Project Resources
 - GitHub Repo : https://github.com/qsaifudin/elixir-phoenix-graphql-redis.git
-- Video Demo :
+- Video Demo : https://youtu.be/9bj3IHzTvnY
 
 ## Overview
 This project implements a server application in Elixir using the Phoenix framework to create a GraphQL API integrated with Redis for key/value storage.
